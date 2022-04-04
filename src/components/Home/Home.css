@@ -43,8 +43,11 @@
     padding: 0;
     margin: 0;
 }
-
 .customer-review{
+    margin-bottom: 50px;
+}
+
+.review-title{
     margin-top: 50px;
 }
 
@@ -53,6 +56,16 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
+}
+.see-all-review{
+    margin-bottom: 100px;
+}
+.see-all-btn{
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 7px 10px;
+    background-color: #39383E;
+    color: white;
 }
 
 @media screen and (max-width: 992px) {

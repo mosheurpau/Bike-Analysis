@@ -4,6 +4,7 @@ import bike from "../../Images/bike-bg.png";
 import "./Home.css";
 import useReview from "../../hooks/userReview";
 import Cart from "../Cart/Cart";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const [userReviews, setuserReviews] = useReview();
@@ -24,14 +25,19 @@ const Home = () => {
           <img src={bike} alt=""></img>
         </Col>
       </Row>
-      <div>
-        <h2 className="customer-review">Customer Reviews(3)</h2>
+      <div className="customer-review">
+        <h2 className="review-title">Customer Reviews(3)</h2>
 
         <div className="reviews-container">
           {userReviews.slice(0, 3).map((userReview) => (
             <Cart key={userReview.id} userReview={userReview}></Cart>
           ))}
         </div>
+      </div>
+      <div className="see-all-review">
+        <Link className="see-all-btn" to="/revews">
+          See All Reviews
+        </Link>
       </div>
     </Container>
   );
