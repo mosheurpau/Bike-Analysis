@@ -1,9 +1,16 @@
 import React from "react";
+import useReview from "../../hooks/userReview";
+import Cart from "../Cart/Cart";
 
 const Reviews = () => {
+  const [userReviews, setuserReviews] = useReview();
   return (
     <div>
-      <h2>This is Reviews</h2>
+      <div className="reviews-container">
+        {userReviews.map((userReview) => (
+          <Cart key={userReview.id} userReview={userReview}></Cart>
+        ))}
+      </div>
     </div>
   );
 };

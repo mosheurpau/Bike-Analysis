@@ -10,7 +10,7 @@ function CustomLink({ children, to, ...props }) {
       <Link
         style={{
           padding: "5px",
-          margin: "5px",
+          margin: "10px",
           fontSize: "20px",
           color: match ? "red" : "white",
           textDecoration: "none",
