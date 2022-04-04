@@ -11,7 +11,7 @@ function CustomLink({ children, to, ...props }) {
         style={{
           padding: "5px",
           margin: "10px",
-          fontSize: "20px",
+          textTransform: "uppercase",
           color: match ? "red" : "white",
           textDecoration: "none",
           borderBottom: match ? "2px solid red" : "none",

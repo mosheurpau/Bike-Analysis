@@ -13,7 +13,7 @@ const Header = () => {
             <span style={{ color: "red" }}>Bike</span> Analysis
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
+          <Navbar.Collapse id="responsive-navbar-nav" className="m-3">
             <Nav className="ms-auto">
               <CustomLink to="/home">Home</CustomLink>
               <CustomLink to="/revews">Revews</CustomLink>
