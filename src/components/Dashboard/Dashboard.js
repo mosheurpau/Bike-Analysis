@@ -9,6 +9,8 @@ import {
   Legend,
   Line,
   LineChart,
+  Pie,
+  PieChart,
   Tooltip,
   XAxis,
   YAxis,
@@ -122,6 +124,29 @@ const Dashboard = () => {
         </Col>
         <Col sm={6}>
           <h5>Investment VS Revenue</h5>
+          <PieChart width={730} height={250}>
+            <Pie
+              data={data}
+              dataKey="investment"
+              nameKey="month"
+              cx="50%"
+              cy="50%"
+              outerRadius={50}
+              fill="#8884d8"
+            />
+            <Pie
+              data={data}
+              dataKey="revenue"
+              nameKey="month"
+              cx="50%"
+              cy="50%"
+              innerRadius={60}
+              outerRadius={80}
+              fill="#82ca9d"
+              label
+            />
+            <Tooltip />
+          </PieChart>
         </Col>
       </Row>
     </Container>
