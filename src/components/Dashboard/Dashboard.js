@@ -3,7 +3,10 @@ import { Col, Container, Row } from "react-bootstrap";
 import {
   Area,
   AreaChart,
+  Bar,
+  BarChart,
   CartesianGrid,
+  Legend,
   Line,
   LineChart,
   Tooltip,
@@ -107,6 +110,15 @@ const Dashboard = () => {
       <Row>
         <Col sm={6}>
           <h5>Investment VS Revenue</h5>
+          <BarChart width={400} height={300} data={data}>
+            <CartesianGrid strokeDasharray="3 3" />
+            <XAxis dataKey="month" />
+            <YAxis />
+            <Tooltip />
+            <Legend />
+            <Bar dataKey="investment" fill="#8884d8" />
+            <Bar dataKey="revenue" fill="#82ca9d" />
+          </BarChart>
         </Col>
         <Col sm={6}>
           <h5>Investment VS Revenue</h5>
