@@ -35,7 +35,6 @@
 
 }
 
-
 .banner-img{
     padding: 0px;
 }
@@ -43,4 +42,14 @@
     width: 100%;
     padding: 0;
     margin: 0;
+}
+
+.customer-review{
+    margin-top: 50px;
+}
+
+.reviews-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
 }

@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "Mosheur Rahman",
+      "review": "The Kawasaki Ninja H2R has been in the headlines for being one of a kind. The Japanese brand took more than three years to design the Kawasaki Ninja H2, which is the predecessor of the H2R.",
+      "img": "https://i.ibb.co/2NgZxgn/user-1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Mehedi Hasan",
+      "review": "My favourite bike because it comes with good features and it looks amazing. This bike is very comfortable to ride. This is a very good bike at an affordable price. This bike comes with good wheelbase and ground clearance with good safety features.",
+      "img": "https://i.ibb.co/ggHMfP4/user-2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Shakil Choudhory",
+      "review": "It's the only and only bike in the world with the top doped of 400+, I love speed of this bike The best bike I ever seen in the world I bought many bikes but this is the best of all. Finally this is the god of all bikes",
+      "img": "https://i.ibb.co/Fn5Z74s/user-3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Kamrul Hasan",
+      "review": "I love the kawasaki ninja bike because it's my dream to buy kawasaki ninja bike and finally my dream is successfully completed. Kawasaki ninja bike is a good bike in our world and maintenance of bike is also good and mileage of bike is also good",
+      "img": "https://i.ibb.co/47LSBLV/user-4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Soykot Ahmed",
+      "review": " It is my first bike and as a person who was upgrading from an Activa, this felt just perfect for me...It is a Beginner friendly machine...",
+      "img": "https://i.ibb.co/vkzsdSg/user-5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Samiul Sadman",
+      "review": "This is a dream bike of mine. Wish the dream fulfilled asap. With knowing that truth that by my own I may be get this thing after a long time but yes this is true. ",
+      "img": "https://i.ibb.co/tBqj64x/user-6.jpg"
+    }
+  ]

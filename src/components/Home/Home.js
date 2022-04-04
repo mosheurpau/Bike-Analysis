@@ -1,9 +1,12 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Card, CardGroup, Col, Container, Row } from "react-bootstrap";
 import bike from "../../Images/bike-bg.png";
 import "./Home.css";
+import useReview from "../../hooks/userReview";
+import Cart from "../Cart/Cart";
 
 const Home = () => {
+  const [userReviews, setuserReviews] = useReview();
   return (
     <Container fluid>
       <Row className="banner-bg">
@@ -21,6 +24,15 @@ const Home = () => {
           <img src={bike} alt=""></img>
         </Col>
       </Row>
+      <div>
+        <h2 className="customer-review">Customer Reviews(3)</h2>
+
+        <div className="reviews-container">
+          {userReviews.map((userReview) => (
+            <Cart key={userReview.id} userReview={userReview}></Cart>
+          ))}
+        </div>
+      </div>
     </Container>
   );
 };
