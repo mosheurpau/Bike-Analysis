@@ -21,7 +21,7 @@ const Blogs = () => {
         elements. Its content is clearly defined.
       </p>
       <h3 className="pt-3 text-start">
-        what's the difference between inline and inline-block?
+        What is the difference between inline and inline-block?
       </h3>
       <p className="text-start">
         The main distinction between inline-block and display: inline is that
