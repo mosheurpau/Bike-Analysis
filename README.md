@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+# Bike Analysis
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live web site Link: [bike-analysis](https://github.com/facebook/create-react-app).
+
+- This projects use react router Custom active link.
+- react bootstrap framework using this project.
+- This projects data load from JSON file using hook for customer review and show charts.
+- This projects also use 404 route and faveicon.
 
 ## Available Scripts
 
