@@ -9,7 +9,7 @@ function CustomLink({ children, to, ...props }) {
     <div>
       <Link
         style={{
-          padding: "5px",
+          paddingBottom: "0px",
           margin: "10px",
           textTransform: "uppercase",
           color: match ? "red" : "white",

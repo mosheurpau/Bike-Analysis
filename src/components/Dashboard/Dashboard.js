@@ -25,12 +25,12 @@ const Dashboard = () => {
       .then((data) => setData(data));
   }, []);
   return (
-    <Container className="dashboard-container">
+    <Container fluid className="dashboard-container">
       <Row>
         <Col sm={6}>
           <h5 className="my-4">Month wish Sell</h5>
           <div className="d-flex justify-content-center">
-            <LineChart width={450} height={250} data={data}>
+            <LineChart width={350} height={250} data={data}>
               <Line type="monotone" dataKey={"sell"} stroke="#8884d8"></Line>
               <XAxis dataKey="month"></XAxis>
               <Tooltip />
@@ -43,7 +43,7 @@ const Dashboard = () => {
           <h5 className="my-4">Investment VS Revenue</h5>
           <div className="d-flex justify-content-center">
             <AreaChart
-              width={450}
+              width={350}
               height={250}
               data={data}
               margin={{ top: 10, right: 30, left: 0, bottom: 0 }}
@@ -84,7 +84,7 @@ const Dashboard = () => {
         <Col sm={6}>
           <h5 className="my-4">Investment VS Revenue</h5>
           <div className="d-flex justify-content-center">
-            <BarChart width={450} height={250} data={data}>
+            <BarChart width={350} height={250} data={data}>
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis dataKey="month" />
               <YAxis />
@@ -98,7 +98,7 @@ const Dashboard = () => {
         <Col sm={6}>
           <h5 className="my-4">Investment VS Revenue</h5>
           <div className="d-flex justify-content-center">
-            <PieChart width={450} height={250}>
+            <PieChart width={350} height={250}>
               <Pie
                 data={data}
                 dataKey="investment"
